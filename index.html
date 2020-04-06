@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="animals.js"></script>
+  <title>Petting Zoo</title>
+</head>
+<body>
+  <div class="container" id="content-all">
+    <h1>Welcome to the Hippogochi!</h1>
+    <h3>Adopt and care for an adorable hippo pet!</h3>
+
+    <div class="centered container grid-container" id="animal-div">
+      <img src="#" alt="Image of a smiling cartoon hippo" class="img-fluid centered grid-item grid-image" id="hippoImage">
+      <form id="name" class="centered hideOnSubmit grid-item">
+        <div class="form-row">
+          <div class="col">
+            <label for="hippoName" class="col-form-label">Name your hippo!</label>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name"name="hippoName" id="hippoName" placeholder="Hippo Name" value="Geraldine" required>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-outline-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div> <!--#content-all-->
+</body>
+</html>

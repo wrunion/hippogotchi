@@ -1,0 +1,16 @@
+h1, h3, p {
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+#animal-div {
+  max-width: 80%;
+  margin: 2em;
+}
+
+#hippoImage {
+  padding: 1em;
+}
