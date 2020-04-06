@@ -3,14 +3,28 @@ h1, h3, p {
 }
 
 .centered {
-  text-align: center;
+  align-items: center;
 }
 
 #animal-div {
   max-width: 80%;
-  margin: 2em;
+  border: 1px solid lightgrey;
+  padding: 3em;
+  margin-top: 2em;
 }
 
 #hippoImage {
   padding: 1em;
+}
+
+.btn {
+  margin-top: .25em;
+  /* margin-bottom: .25em; */
+}
+
+#stats {
+  margin-top: 3em;
+}
+#name {
+  margin-top: 1em;
 }
