@@ -9,7 +9,8 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script type="text/javascript" src="animals.js"></script>
+  <script type="text/javascript" src="hippo.js"></script>
+  <script type="text/javascript" src="main.js"></script>
   <title>Hippogochi</title>
 </head>
 <body>
@@ -26,16 +27,17 @@
         <!-- Buttons  -->
         <div class="col-sm-4">
         <div id="buttons">
-          <button type="button" class="btn btn-success form-control">Play</button>
-          <button type="button" class="btn btn-success form-control">Pet</button>
-          <button type="button" class="btn btn-success form-control">Feed</button>
-          <button type="button" class="btn btn-success form-control">Clean</button>
+          <!-- <button type="button" class="btn btn-success form-control">Play</button> -->
+          <button type="button" class="btn btn-success form-control" id="petButton">Pet</button>
+          <!-- <button type="button" class="btn btn-success form-control">Feed</button>
+          <button type="button" class="btn btn-success form-control">Clean</button> -->
         </div>
       </div>
       </div>
       <div id="stats" class="container">
-        <h3 id="stats-header">Stats:</h3>
-        <div id="statResult"></div>
+        <h3 id="stats-header">Happiness:</h3>
+          <div id="happinessResult"></div>
+      </div>
     </div>
         
   </div> <!--#content-all-->
