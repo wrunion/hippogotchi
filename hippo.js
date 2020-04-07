@@ -70,11 +70,13 @@ const storeHippo = () => {
 }
 
 const playWith = changeState('happiness')(5);
+const ignore = changeState("happiness")(-2);
 
 const hippoChanger = storeHippo();
 
 // const happyHippo = changeState(playWith(hippo));
 const happyHippo = hippoChanger(playWith);
+const ignoredHippo = hippoChanger(ignore);
 
 console.log(happyHippo);
 
